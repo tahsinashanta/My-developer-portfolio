@@ -1,9 +1,9 @@
 body {
     font-family: 'Varela Round', sans-serif;
+    margin: 0;
 }
 h1{
-    font-size: 40px;
-    font-variant: initial;
+    font-size: 50px;
     color: black;
 }
 h3{
@@ -15,22 +15,39 @@ h4{
     font-weight: 50px;
 }
 .magenta-color{
-    color: magenta;
+    color: rgb(247, 2, 153);
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%
 }
 .half-width{
-    padding-left: 3%
+    padding-left: 5%
 }
 .schedule-button{
     text-decoration: none;
-    background-image: linear-gradient(magenta, blue);
+    background-image: linear-gradient(rgb(247, 35, 151), blue);
     padding: 15px;
     border-radius: 5px;
     color: white;
     font-weight: 900;
+}
+.banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.fontjustify{
+    text-align: justify;
+}
+.Why-section{
+display: flex;
+width: 100%;
+}
+.Why-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
