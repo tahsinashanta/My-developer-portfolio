@@ -1,0 +1,36 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-variant: initial;
+    color: black;
+}
+h3{
+    font-size: 25px;
+    font-weight: 10px;
+    color: black;
+}
+h4{
+    font-weight: 50px;
+}
+.magenta-color{
+    color: magenta;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%
+}
+.half-width{
+    padding-left: 3%
+}
+.schedule-button{
+    text-decoration: none;
+    background-image: linear-gradient(magenta, blue);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
